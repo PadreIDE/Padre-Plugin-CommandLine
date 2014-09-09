@@ -23,7 +23,7 @@ my $builder = Padre::PluginBuilder->new(
     share_dir => 'share',
     meta_merge     => {
         resources => {
-            repository => 'http://svn.perlide.org/padre/trunk/Padre-Plugin-CommandLine',
+            repository => 'https://github.com/PadreIDE/Padre-Plugin-CommandLine',
         }
     },
 );
